@@ -3,6 +3,8 @@
 This is a bridge between Vue.js and Buder. It allows you to use Vue.js components in Buder projects.
 
 ```typescript
+import HelloWorld from "./helloworld.vue";
+
 VueBridge(HelloWorld, { text: "Hello, World!" });
 ```
 
