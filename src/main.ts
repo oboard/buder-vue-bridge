@@ -7,7 +7,7 @@ import {
   Button,
   Text,
 } from "buder";
-import { createApp, h, ref, Ref, watch } from "vue";
+import { createApp, h } from "vue";
 import HelloWorld from "./helloworld.vue";
 
 class _VueBridge extends BuderWidget {
